@@ -1,0 +1,38 @@
+html {
+  font-family: Courier;
+  background-color: silver;
+}
+
+#contact {
+  text-align: center;
+}
+#homelink {
+  text-align: center;
+  border: 3px rgb(121, 17, 173) solid;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, pink, blue);
+}
+#linkedin {
+ margin-top: 30px;
+ margin-left: 350px;
+ border: 3px rgb(121, 17, 173) solid;
+ padding-bottom: 2px;
+ margin-right: 350px;
+ background: linear-gradient(to right, pink, blue);
+}
+#linkedin {
+  color: black;
+}
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}

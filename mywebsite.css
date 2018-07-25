@@ -1,0 +1,48 @@
+html {
+  font-family: Courier;
+  background-color: silver;
+  text-align: center;
+}
+
+#link, #linkedin {
+  text-align: center;
+}
+#link {
+  border: 3px rgb(121, 17, 173) solid;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-bottom: 2px;
+  margin-top: 0px;
+  padding-top: 2px;
+  background: linear-gradient(to right, pink, blue);
+}
+#firsth1 {
+  text-align: center;
+  color: rgb(121, 17, 173);"
+}
+#myImg {
+  width: 450px;
+  height: 200px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+h3 {
+  text-align: center;
+  font-family: Georgia;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+#infoboutmoi {
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
