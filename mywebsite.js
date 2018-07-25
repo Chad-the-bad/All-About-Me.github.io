@@ -9,11 +9,11 @@ var myImages = ['https://static1.srcdn.com/wordpress/wp-content/uploads/2018/01/
                 'https://nerdist.com/wp-content/uploads/2015/09/Star-Wars-saga-1-6.jpg'
 
               ];
-var myAlts = ['A picture of the The Death Cure, a newly released movie from ______, as based off of the book by James Dashner. The Death Cure is a science fiction movie starring Dylan O\'Brien, Kaya Scodelario, and Ki Hong Lee.',
+var myAlts = ['A picture of the The Death Cure, a newly released movie from 20th Century Fox, as based off of the book by James Dashner. The Death Cure is a science fiction movie starring Dylan O\'Brien, Kaya Scodelario, and Ki Hong Lee.',
               'A picture of Lindsey Stirling, pop violinist.',
               'A picture of a group of adorable puppies that are playing with a long branch.',
-              'A picture some delicious-looking chocolate.',
-              'A picture of the K-Pop band called Day 6. The picture features the band\'s five members. In order from left to right: Wonpil, Sungjin, Jae, Young K, and Dowoon'
+              'A picture of some delicious-looking chocolate.',
+              'A picture of the K-Pop band called Day 6. The picture features the band\'s five members. In order from left to right: Wonpil, Sungjin, Jae, Young K, and Dowoon',
               'A picture of the Girls Who Code logo',
               'A picture of Shallan Davar, from the Stormlight Archives by Brandon Sanderson',
               'A picture of the Israeli duo comprised of Static (Liraz Russo) and Ben El Tavori',
@@ -23,6 +23,7 @@ var myAlts = ['A picture of the The Death Cure, a newly released movie from ____
 
 
 var img_index = 0;
+var alt_index = 0;
 function change_image() {
 
     //here "this" will point to button, the element which is clicked ie event occurred.
